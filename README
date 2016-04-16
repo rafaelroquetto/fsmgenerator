@@ -21,8 +21,8 @@ BUILDING
 USAGE
 -----
 
-    ./fsm [-g|f]
+    ./fsm [-g|-f]
 
-    -g -> use GOTO on the target code to perform transitions (default)
-    -f -> use function calls on the target code to perform transitions
+    -g      Use GOTO on the target code to perform transitions (default)
+    -f      Use function calls on the target code to perform transitions
 

@@ -714,7 +714,7 @@ is_goto(int argc, char *argv[])
             gt = 1;
             break;
         default:
-            panic("Usage: %s [-g|f]", argv[0]);
+            panic("Usage: %s [-g|-f]", argv[0]);
         }
     }
 
