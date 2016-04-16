@@ -1,0 +1,28 @@
+DESCRIPTION
+-----------
+
+This is a toy interactive finite state automata generator.
+
+It interactively takes the following input parameters:
+
+    - The input alphabet
+    - A finite set of states
+    - An initial state
+    - A set of final states
+    - The state transition functions
+
+And outputs the equivalent C code implementation.
+
+BUILDING
+--------
+
+    gcc -o fsm fsm.c
+
+USAGE
+-----
+
+    ./fsm [-g|f]
+
+    -g -> use GOTO on the target code to perform transitions (default)
+    -f -> use function calls on the target code to perform transitions
+
